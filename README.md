@@ -3,6 +3,7 @@ Simple class that closes all opened html tags in a provided string
 
 -- Usage --
 
+```php
 <?php
 
 require_once './closeAllHtmlTags.php';
@@ -12,4 +13,5 @@ echo '<p>Messy HTML: </p>'.$someMessyHtml.'</strong>';
 
 $cleanHtml  =  closeAllHtmlTags::index($someMessyHtml);
 echo '<p>Now it\'s  OK: </p>'.$cleanHtml;
+```
 
